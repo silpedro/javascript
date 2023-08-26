@@ -1,8 +1,2 @@
 # javascript DNC
-Neste repositório incluirei os arquivos em JavaScript sobre o que aprendo nas aulas da DNC.
-
-Principais linguagens:
-- JavaScript
-- HTML5
-- CSS
-- git
+Neste repositório foi incluído as primeiras aulas de revisão de js, verificando variáveis, if e else, for e while.
