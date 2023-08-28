@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Manipulando o DOM </h1>
+    <p name ="paragrafo">Aprendendo a manipular o DOM usando JavaScript</p>
+    <div id="div-1">
+        <p>
+            JavaScript é incrível!
+        </p>
+    </div>
+
+    <script>
+        window.document.write('Carregando...')
+        var x = window.document.getElementsByTagName('h1')[0]
+        x.innerHTML += 'com a escola DNC'
+    </script>
+</body>
+</html>
